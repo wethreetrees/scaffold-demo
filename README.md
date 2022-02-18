@@ -1,3 +1,3 @@
-# test-template
+# Hello, {{ name }}
 
-Hello, {{ name }}!
+Welcome to the demo-template!
