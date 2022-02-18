@@ -1,5 +1,6 @@
+{{- items = ['bananas', 'apples', 'milk', 'bread'] -}}
 {{- question name:'name' question:"What's your name?" defaultValue:"{{ system.env 'USERNAME' }}" -}}
-{{- question name:'list' question:"Pick some items" choices:['bananas', 'apples', 'milk', 'bread'] isArray:true -}}
+{{- question name:'list' question:"Pick some items" choices:items isArray:true -}}
 {{- question name:'sentence' question:"Enter any sentence" defaultValue:"scaffolds are SUPER cool!" -}}
 {{- question name:'word' question:"What's your favorite word?" defaultValue:"scaffold" -}}
 {{- question name:'adjective' question:"Enter an adjective" defaultValue:"cool" -}}
