@@ -11,8 +11,8 @@ You can do all kinds of {{ adjective }} stuff with Scaffold templates!
 - String manipulation
   - to upper: {{ word | string.upcase }}
   - to lower: {{ word | string.downcase }}
-  - capitilized: {{ word | string.capitilize }}
-  - capitilize words: {{ sentenct | string.capitilizewords }}
+  - capitilized: {{ word | string.capitalize }}
+  - capitilize words: {{ sentenct | string.capitalizewords }}
   - comparison:
     - contains: {{ sentence | string.contains word }}
     - ends with: {{ sentence | string.ends_with word }}
