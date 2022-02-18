@@ -1,4 +1,4 @@
-{{- question name:'name' question:'What's your name?' defaultValue:'{{ system.env "USERNAME" }} -}}
+{{- question name:'name' question:'What's your name?' defaultValue:'{{ system.env "USERNAME" }}' -}}
 
 # Hello, {{ name }}
 
