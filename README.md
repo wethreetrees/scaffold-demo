@@ -1,3 +1,5 @@
+{{- question name:'name' question:"What's your name?" defaultValue:"{{ system.env 'USERNAME' }}" -}}
+
 # Hello, {{ name }}
 
 Welcome to the demo-template!
@@ -12,7 +14,7 @@ You can do all kinds of {{ adjective }} stuff with Scaffold templates!
   - to upper: {{ word | string.upcase }}
   - to lower: {{ word | string.downcase }}
   - capitilized: {{ word | string.capitalize }}
-  - capitilize words: {{ sentenct | string.capitalizewords }}
+  - capitilize words: {{ sentence | string.capitalizewords }}
   - comparison:
     - contains: {{ sentence | string.contains word }}
     - ends with: {{ sentence | string.ends_with word }}
