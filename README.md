@@ -1,3 +1,4 @@
+someVar inside template: {{ someVar }}
 {{- someVar = 12345 -}}
 
 {{- items = ['bananas', 'apples', 'milk', 'bread'] -}}
