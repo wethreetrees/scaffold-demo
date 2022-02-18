@@ -1,3 +1,5 @@
+{{- someVar = 12345 -}}
+
 {{- items = ['bananas', 'apples', 'milk', 'bread'] -}}
 {{- question name:'name' question:"What's your name?" defaultValue:"{{ system.env 'USERNAME' }}" -}}
 {{- question name:'list' question:"Pick some items" choices:items isArray:true -}}
