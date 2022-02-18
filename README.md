@@ -12,9 +12,9 @@ Welcome to the demo-template!
 You can do all kinds of {{ adjective }} stuff with Scaffold templates!
 
 - List items
-{{ for item in list }}
+{{~ for item in list ~}}
   - {{ item }}
-{{ end }}
+{{~ end ~}}
 - String manipulation
   - to upper: {{ word | string.upcase }}
   - to lower: {{ word | string.downcase }}
