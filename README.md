@@ -1,5 +1,3 @@
-{{- question name:'name' question:'What's your name?' -}}
-
 # Hello, {{ name }}
 
 Welcome to the demo-template!
