@@ -21,8 +21,8 @@ You can do all kinds of {{ adjective }} stuff with Scaffold templates!
   - capitilized: {{ word | string.capitalize }}
   - capitilize words: {{ sentence | string.capitalizewords }}
   - comparison:
-    - contains: {{ sentence | string.contains word }}
-    - ends with: {{ sentence | string.ends_with word }}
-    - starts with: {{ sentence | string.starts_with word }}
+    - contains: {{ sentence }} {{ sentence | string.contains word ? "contains" : "does not contain" }} {{ word }}
+    - ends with: {{ sentence }} {{ sentence | string.ends_with word ? "ends with" : "does not end with" }} {{ word }}
+    - starts with: {{ sentence }} {{ sentence | string.starts_with word ? "starts with" : "does not start with" }} {{ word }}
   - remove: {{ sentence | string.remove word }}
   - replace: {{ sentence | string.replace word "banana" }}
