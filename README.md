@@ -1,5 +1,5 @@
 {{- scaffold.question name:'name' question:"What's your name?" defaultValue:"{{ system.env 'USERNAME' }}" -}}
-{{- scaffold.question name:'list' question:"Pick some items" choices:['bananas', 'apples', 'milk', 'bread'] isArray:true -}}
+{{- scaffold.question name:'list' question:"Pick some items" choices:[bananas, apples, milk, bread] isArray:true -}}
 {{- scaffold.question name:'sentence' question:"Enter any sentence" defaultValue:"scaffolds are SUPER cool!" -}}
 {{- scaffold.question name:'word' question:"What's your favorite word?" defaultValue:"scaffold" -}}
 {{- scaffold.question name:'adjective' question:"Enter an adjective" defaultValue:"cool" -}}
