@@ -2,11 +2,11 @@ someVar inside template: {{ someVar }}
 {{~ someVar = 12345 ~}}
 
 {{- items = ['bananas', 'apples', 'milk', 'bread'] -}}
-{{- question name:'name' question:"What's your name?" defaultValue:"{{ system.env 'USERNAME' }}" -}}
-{{- question name:'list' question:"Pick some items" choices:items isArray:true -}}
-{{- question name:'sentence' question:"Enter any sentence" defaultValue:"scaffolds are SUPER cool!" -}}
-{{- question name:'word' question:"What's your favorite word?" defaultValue:"scaffold" -}}
-{{- question name:'adjective' question:"Enter an adjective" defaultValue:"cool" -}}
+{{- scaffold.question name:'name' question:"What's your name?" defaultValue:"{{ system.env 'USERNAME' }}" -}}
+{{- scaffold.question name:'list' question:"Pick some items" choices:items isArray:true -}}
+{{- scaffold.question name:'sentence' question:"Enter any sentence" defaultValue:"scaffolds are SUPER cool!" -}}
+{{- scaffold.question name:'word' question:"What's your favorite word?" defaultValue:"scaffold" -}}
+{{- scaffold.question name:'adjective' question:"Enter an adjective" defaultValue:"cool" -}}
 
 # Hello, {{ name }}
 
