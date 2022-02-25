@@ -1,6 +1,0 @@
-questions:
-  name:
-    question: What's your name?
-    default: "{{ system.env 'USERNAME' }}"
-    
-path: .
