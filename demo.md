@@ -25,3 +25,5 @@ You can do all kinds of {{ adjective }} stuff with Scaffold templates!
     - starts with: {{ sentence }} {{ sentence | string.starts_with word ? "starts with" : "does not start with" }} {{ word }}
   - remove: {{ sentence | string.remove word }}
   - replace: {{ sentence | string.replace word "banana" }}
+
+And more!
